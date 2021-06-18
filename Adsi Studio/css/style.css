@@ -1,0 +1,207 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.home-wrapper{
+	background: url(../images/background.jpg) no-repeat center top;
+	background-size: cover;
+	background: linear-gradient(rgba(0,0,0,0.5));
+	color: white;
+
+}
+
+header{
+	padding: 10px 0;
+	position: fixed;
+	background-color: rgba(48,48,48,0.6);
+	width: 100%;
+} 
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header nav a{
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+	padding: 10px 15px;
+	font-weight: bold;
+}
+
+header nav a:hover{
+	color: turquoise;
+
+
+}
+
+header nav a.active{
+	background: rgb(243,243,3);
+	border-radius: 50px;
+
+}
+
+#home{
+	text-align: center;
+	padding: 200px 0 150px;
+}
+
+#home h1{
+	font-size: 70px;
+	font-weight: normal;
+}
+
+#home p{
+	font-size: 30px;
+}
+
+
+.container{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#home .social{
+	margin-top: 80px;
+}
+
+#home .social a{
+	font-size: 30px;
+	color: white;
+	display: inline-block;
+	border-radius: 50px;
+	background-color: black;
+	font-weight: bold;
+	line-height: 50px;
+	width: 50px;
+	margin-right: 10px;
+
+}
+
+#home .social a:hover{
+	background-color: #fed136;
+	color: black;
+	transition: all 0.5s;
+}
+
+#home .divider{
+	width: 150px;
+	border-top: 5px solid #fed136;
+	margin: 0 auto; 
+}
+
+section{
+	padding: 80px;
+}
+
+section h2{
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+#servicios .box{
+	display: inline-block;
+	text-align: center;
+	width: 33%;
+	padding: 12px;
+}
+
+#servicios .box a{
+	text-decoration: none;
+	color: black;
+}
+
+#servicios .box img:hover{
+	transform: scale(1.2);
+	transition: all 1s ease;
+}
+
+#video{
+	background: black;
+	text-align: center;
+	padding: 30px 0;
+}
+
+#portafolio{
+	background: whitesmoke;
+}
+
+#portafolio .box{
+	display: inline-block;
+	text-align: center;
+	width: 33%;
+	padding: 15px;
+	/*background-color: white;*/
+}
+
+#portafolio .box img{
+	width: 100%;
+}
+
+#portafolio .box img:hover{
+	transform: scale(1.2);
+	transition: all 1s ease;
+}
+
+#portafolio .box a{
+	text-decoration: none;
+	color: black;
+}
+
+#portafolio .box p{
+	color: black;
+	padding: 10px;
+}
+
+#contacto{
+	background-color: #303030;
+	background-image: url(../images/map-image.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+#contacto h2{
+	color: white;
+}
+
+#contacto input{
+	padding: 15px;
+	width: 400px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+#contacto textarea{
+	width: 400px;
+	padding: 20px;
+	margin: 20px 0px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+#contacto button{
+	background-color: #fed136;
+	padding: 20px 40px;
+	color: white;
+	border-color: #fed136;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1;
+
+}
+
+footer p{
+	text-align: center;
+	margin: 0px;
+	padding: 90px 0px;
+	font-size: 20px;
+}
